@@ -12,6 +12,7 @@
             <th>Mamasajes</th>
         </tr>
         <?php
+        /*Cambiar y usar constantes para nombres de tablas y columnas!*/
         require_once "Conection.php";
 
         $db = Database::getInstance();

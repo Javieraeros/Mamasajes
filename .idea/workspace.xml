@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed064b77-632e-41f1-b1f3-ca6298cf2871" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mamasajes/datos.php" afterPath="$PROJECT_DIR$/Mamasajes/datos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mamasajes/index.html" afterPath="$PROJECT_DIR$/Mamasajes/index.html" />
     </list>
     <ignored path="Mamasajes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +46,11 @@
       <file leaf-file-name="datos.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mamasajes/datos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="144">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
               <folding>
-                <marker date="1476389947904" expanded="true" signature="430:482" ph="Select Dni,N... Mamasajes" />
-                <marker date="1476389947904" expanded="true" signature="430:485" ph="Select Dni,N... Mamasajistas" />
+                <marker date="1476390293731" expanded="true" signature="503:555" ph="Select Dni,N... Mamasajes" />
+                <marker date="1476390293731" expanded="true" signature="503:558" ph="Select Dni,N... Mamasajistas" />
               </folding>
             </state>
           </provider>
@@ -280,7 +278,7 @@
       <updated>1476343209729</updated>
       <workItem from="1476343213395" duration="3764000" />
       <workItem from="1476384935573" duration="1153000" />
-      <workItem from="1476388656403" duration="1542000" />
+      <workItem from="1476388656403" duration="1635000" />
     </task>
     <servers />
   </component>
@@ -317,11 +315,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6459000" />
+    <option name="totallyTimeSpent" value="6552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1360" height="745" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2492647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -333,7 +331,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -396,8 +394,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476389947904" expanded="true" signature="430:482" ph="Select Dni,N... Mamasajes" />
-            <marker date="1476389947904" expanded="true" signature="430:485" ph="Select Dni,N... Mamasajistas" />
+            <marker date="1476390293731" expanded="true" signature="503:555" ph="Select Dni,N... Mamasajes" />
+            <marker date="1476390293731" expanded="true" signature="503:558" ph="Select Dni,N... Mamasajistas" />
           </folding>
         </state>
       </provider>
@@ -469,11 +467,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mamasajes/datos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        <state relative-caret-position="144">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
           <folding>
-            <marker date="1476389947904" expanded="true" signature="430:482" ph="Select Dni,N... Mamasajes" />
-            <marker date="1476389947904" expanded="true" signature="430:485" ph="Select Dni,N... Mamasajistas" />
+            <marker date="1476390293731" expanded="true" signature="503:555" ph="Select Dni,N... Mamasajes" />
+            <marker date="1476390293731" expanded="true" signature="503:558" ph="Select Dni,N... Mamasajistas" />
           </folding>
         </state>
       </provider>
