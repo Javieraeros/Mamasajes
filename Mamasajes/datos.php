@@ -16,13 +16,14 @@
 
         $db = Database::getInstance();
         $mysqlcon = $db->getConnection();
-        $sql= "Select Dni,Nombre,Sexo,Edad,Mamasajes From Mamasajes";
+        $sql= "Select Dni,Nombre,Sexo,Edad,Mamasajes From Mamasajistas";
         $result=$mysqlcon->query($sql);
-        if($result->num_rows>0){
+        /*No se porque no funciona :(*/
+        if($result->num_rows > 0){
             while($row=$result->fetch_assoc()){
-                echo '<tr><td>'.$row["Dni"].'</td><td>'.$row["Nombre"].'</td></tr>';
-                echo '<tr><td>'.$row["Sexo"].'</td><td>'.$row["Edad"].'</td></tr>';
-                echo '<tr><td>'.$row["Mamasajes"].'</td>';
+                echo '<tr><td>'.$row["Dni"].'</td><td>'.$row["Nombre"].'</td>';
+                echo '<td>'.$row["Sexo"].'</td><td>'.$row["Edad"].'</td>';
+                echo '<td>'.$row["Mamasajes"].'</td></tr>';
             }
         }
 
