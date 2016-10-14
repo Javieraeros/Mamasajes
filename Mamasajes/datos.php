@@ -14,10 +14,16 @@
         <?php
         /*Cambiar y usar constantes para nombres de tablas y columnas!*/
         require_once "Conection.php";
+        require_once "../BDCosntants.php";
 
         $db = Database::getInstance();
         $mysqlcon = $db->getConnection();
-        $sql= "Select Dni,Nombre,Sexo,Edad,Mamasajes From Mamasajistas";
+        $sql= "Select ".NombresMysql\tabla::DNI.","
+            .NombresMysql\tabla::Nombre. ","
+            .NombresMysql\tabla::Sexo.","
+            .NombresMysql\tabla::Edad.","
+            .NombresMysql\tabla::Mamasajes." From "
+            .NombresMysql\tabla::nombreTabla;
         $result=$mysqlcon->query($sql);
         /*No se porque no funciona :(*/
         if($result->num_rows > 0){

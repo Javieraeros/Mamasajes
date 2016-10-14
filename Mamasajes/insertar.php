@@ -1,0 +1,10 @@
+<html>
+    <body>
+    <label>
+        DNI
+    </label>
+    <label>
+        Nombre
+    </label>
+    </body>
+</html>
