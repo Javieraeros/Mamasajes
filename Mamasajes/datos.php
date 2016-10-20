@@ -25,15 +25,15 @@
             .NombresMysql\tabla::Mamasajes." From "
             .NombresMysql\tabla::nombreTabla;
         $result=$mysqlcon->query($sql);
-        /*No se porque no funciona :(*/
+
         if($result->num_rows > 0){
             while($row=$result->fetch_assoc()){
-                echo '<tr><td>'.$row[NombresMysql\tabla::DNI].'</td><td>'.$row[NombresMysql\tabla::Nombre].'</td>';
-                echo '<td>'.$row[NombresMysql\tabla::Sexo].'</td><td>'.$row[NombresMysql\tabla::Edad].'</td>';
-                echo '<td>'.$row[NombresMysql\tabla::Mamasajes].'</td></tr>';
+                echo '<tr><td>'.$row["Dni"].'</td><td>'.$row["Nombre"].'</td>';
+                echo '<td>'.$row["Sexo"].'</td><td>'.$row["Edad"].'</td>';
+                echo '<td>'.$row["Mamasajes"].'</td></tr>';
             }
         }
-
+        $mysqlcon->close();
         ?>
     </table>
     </body>

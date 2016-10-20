@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `Mamasajistas` (
   `Nombre` varchar(30) NOT NULL,
   `Sexo` char(1) NOT NULL,
   `Edad` tinyint(11) NOT NULL,
-  `Mamasajes` varchar(1) NOT NULL DEFAULT 'N',
+  `Mamasajes` char(1) NOT NULL DEFAULT 'N',
   PRIMARY KEY (`DNI`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
