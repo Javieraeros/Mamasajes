@@ -1,3 +1,13 @@
+<html>
+<head>
+    <style>
+        .phpboton {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
 <?php
 /**
  * Created by PhpStorm.
@@ -26,3 +36,7 @@
     }else{
         echo "Falló la ejecución: (" . $stmt->errno . ") " . $stmt->error;
     }
+
+    echo "<Button value='Volver' name='Volver' ><a href='index.html' class='phpboton'>Volver</a> </Button>";
+?>
+</html>
