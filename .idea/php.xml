@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="localhost" id="0a991963-ed26-485b-9f26-196173dcacc6" name="Localhost" />
+    </servers>
+  </component>
   <component name="PhpUnit">
     <phpunit_settings>
       <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="/opt/lampp/bin/phpunit" phpunit_phar_path="/opt/lampp/bin/phpunit" />
