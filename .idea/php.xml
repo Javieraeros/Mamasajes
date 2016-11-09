@@ -3,6 +3,7 @@
   <component name="PhpProjectServersManager">
     <servers>
       <server host="localhost" id="0a991963-ed26-485b-9f26-196173dcacc6" name="Localhost" />
+      <server host="www.fjruiz.ciclo.iesnervion.es" id="233131f1-89d0-4cba-ad1f-79a65f73df43" name="Ciclo" />
     </servers>
   </component>
   <component name="PhpUnit">
